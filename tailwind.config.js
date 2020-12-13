@@ -1,16 +1,22 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  // purge: [
+  //   "./pages/**/*.js",
+  //   "./components/**/*.js",
+  //   "./pages/**/*.tsx",
+  //   "./components/**/*.tsx",
+  //   "./pages/**/*.ts",
+  //   "./components/**/*.ts",
+  // ],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        'accent-1': '#333',
+        "accent-1": "#333",
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
-}
+};

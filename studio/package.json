@@ -7,28 +7,31 @@
   "author": "Knut Melvær <knut@sanity.io>",
   "license": "MIT",
   "scripts": {
-    "start": "sanity start",
-    "test": "sanity check"
+    "sanity": "sanity"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^2.0.7",
+    "@sanity/base": "^2.1.2",
     "@sanity/block-content-to-react": "^2.0.7",
-    "@sanity/components": "^2.0.7",
-    "@sanity/core": "^2.0.5",
-    "@sanity/color-input": "^2.0.5",
-    "@sanity/default-layout": "^2.0.7",
-    "@sanity/default-login": "^2.0.5",
-    "@sanity/desk-tool": "^2.0.8",
-    "@sanity/vision": "^2.0.5",
+    "@sanity/components": "^2.1.0",
+    "@sanity/core": "^2.1.2",
+    "@sanity/color-input": "^2.1.0",
+    "@sanity/default-layout": "^2.1.2",
+    "@sanity/default-login": "^2.1.0",
+    "@sanity/desk-tool": "^2.1.2",
+    "@sanity/vision": "^2.1.0",
     "prop-types": "^15.7",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-icons": "^3.11.0",
-    "react-moveable":"^0.22.6",
+    "react-moveable": "^0.22.6",
+    "react-barcode": "1.4.0",
     "resize-observer": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0"
+  }
 }
